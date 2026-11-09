@@ -4,7 +4,7 @@ print("Length of the list is: ", len(lst))
 print("First element of the list is: ", lst[0])
 print("Last element of the list is: ", lst[-1])
 
-lst.append("KKapil Dev")
+lst.append("Kapil Dev")
 lst.append("Sachin Tendulkar")
 print("List after appending elements: ", lst)
 
@@ -29,6 +29,6 @@ lst.clear()
 print("List after clearing: ", lst)
 
 lst1 = ["Virat Kohli", "Yuvraj Singh", "Shane Warne", "Varun Chakravarthy", "Ravindra Jadeja", "MS Dhoni", "Rohit Sharma", "Suresh Raina", "Hardik Pandya", "Bhuvneshwar Kumar", "Jasprit Bumrah"]
-lst2 = ["KKapil Dev", "Sachin Tendulkar"]
+lst2 = ["Kapil Dev", "Sachin Tendulkar"]
 lst3 = lst1 + lst2
 print("Concatenated list: ", lst3)
